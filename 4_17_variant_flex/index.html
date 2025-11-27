@@ -321,19 +321,28 @@
 
     <footer class="site-footer">
       <div class="shell footer-grid">
-        <article>
+        <div>
           <img src="img/footer-logo.png" alt="Brandi footer logo" width="130" height="40">
           <p>eusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        </article>
-        <article>
+        </div>
+        <div>
           <h3>Subscribe</h3>
           <form class="subscribe">
-            <input type="email">
-            <button type="submit" aria-label="Subscribe">&#8594;</button>
+            <label class="visually-hidden" for="footer-subscribe-email">
+              Email for subscription
+            </label>
+            <input
+              id="footer-subscribe-email"
+              type="email"
+              name="subscribe-email"
+            >
+            <button type="submit" class="subscribe-btn" aria-label="Subscribe">
+              &#8594;
+            </button>
           </form>
           <p>eusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        </article>
-        <article>
+        </div>
+        <div>
           <h3>Explore</h3>
           <ul>
             <li><a href="#">Envato</a></li>
@@ -341,8 +350,8 @@
             <li><a href="#">Kreativeshowcase</a></li>
             <li><a href="#">Freebiescurve</a></li>
           </ul>
-        </article>
-        <article>
+        </div>
+        <div>
           <div></div>
           <ul>
             <li><a href="#">Themeforest</a></li>
@@ -350,8 +359,8 @@
             <li><a href="#">Google</a></li>
             <li><a href="#">Yahoo</a></li>
           </ul>
-        </article>
-        <article>
+        </div>
+        <div>
           <div></div>
           <div class="credit-block">
             <div class="credit-line1">
@@ -370,7 +379,7 @@
               <p class="copyright">© 2014 Brandi Studio. All Rights Reserved.</p>
             </div>
           </div>
-        </article>
+        </div>
       </div>
     </footer>
   </body>
