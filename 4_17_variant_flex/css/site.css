@@ -808,6 +808,14 @@ textarea:focus-visible {
   .site-logo {
     margin-bottom: 8px;
   }
+
+  .contact-info {
+    text-align: center;
+  }
+
+  .footer-grid {
+    text-align: center;
+  }
 }
 
 @media (max-width: 600px) {
