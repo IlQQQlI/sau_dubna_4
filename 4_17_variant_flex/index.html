@@ -2,18 +2,46 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Brandi — команда профессионалов, которая делает бренд, сайты и презентации ручной сборки.">
     <meta name="keywords" content="brandi, креативное агентство, брендинг, веб-студия, портфолио">
+
+    <!-- Primary Meta Tags -->
+    <title>4th Task</title>
+    <meta name="title" content="4th Task" />
+    <meta name="description" content="Brandi — команда профессионалов, которая делает бренд, сайты и презентации ручной сборки." />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://ilqqqli.github.io/sau_dubna_4/4_17_variant_flex/index.html" />
+    <meta property="og:title" content="4th Task" />
+    <meta property="og:description" content="Brandi — команда профессионалов, которая делает бренд, сайты и презентации ручной сборки." />
+    <meta property="og:image" content="https://metatags.io/images/meta-tags.png" />
+
+    <!-- X (Twitter) -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://ilqqqli.github.io/sau_dubna_4/4_17_variant_flex/index.html" />
+    <meta property="twitter:title" content="4th Task" />
+    <meta property="twitter:description" content="Brandi — команда профессионалов, которая делает бренд, сайты и презентации ручной сборки." />
+    <meta property="twitter:image" content="https://metatags.io/images/meta-tags.png" />
+
+    <!-- Meta Tags Generated with https://metatags.io -->
+
     <title>4th Task</title>
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/site.css">
   </head>
-  <body>
+  <body itemscope itemtype="https://schema.org/Organization">
+
+  <span class="visually-hidden" itemprop="name">Brandi Studio</span>
+  <span class="visually-hidden" itemprop="url">https://example.com/brandi</span>
+  <span class="visually-hidden" itemprop="description">Brandi — команда профессионалов, которая делает бренд, сайты и презентации ручной сборки.</span>
+
     <header class="site-header">
       <div class="shell site-header__inner">
-        <a class="site-logo" href="#hero">
-          <img src="img/logo.png" alt="Brandi" width="130" height="36">
+        <a class="site-logo" href="#hero" itemprop="url">
+          <img src="img/logo.png" alt="Brandi" width="130" height="36" itemprop="logo">
         </a>
         <nav class="site-nav" aria-label="Основная навигация">
           <ul>
@@ -50,26 +78,38 @@
             <h2>Features</h2>
             <div class="section-head__divider"><i class="fa fa-heart-o"></i></div>
           </header>
+
           <div class="feature-list">
-            <article class="feature-card">
+            <article class="feature-card" itemprop="makesOffer" itemscope itemtype="https://schema.org/Service">
               <div class="feature-card__icon"><i class="fa fa-github"></i></div>
               <div class="feature-card__body">
-                <h3>Branding</h3>
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
+                <h3 itemprop="name">Branding</h3>
+                <p itemprop="description">
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                  totam rem aperiam, eaque ipsa quae ab illo inventore
+                </p>
               </div>
             </article>
-            <article class="feature-card">
+
+            <article class="feature-card" itemprop="makesOffer" itemscope itemtype="https://schema.org/Service">
               <div class="feature-card__icon"><i class="fa fa-pencil"></i></div>
               <div class="feature-card__body">
-                <h3>Development</h3>
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
+                <h3 itemprop="name">Development</h3>
+                <p itemprop="description">
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                  totam rem aperiam, eaque ipsa quae ab illo inventore
+                </p>
               </div>
             </article>
-            <article class="feature-card">
+
+            <article class="feature-card" itemprop="makesOffer" itemscope itemtype="https://schema.org/Service">
               <div class="feature-card__icon"><i class="fa fa-bullhorn"></i></div>
               <div class="feature-card__body">
-                <h3>Consulting</h3>
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
+                <h3 itemprop="name">Consulting</h3>
+                <p itemprop="description">
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                  totam rem aperiam, eaque ipsa quae ab illo inventore
+                </p>
               </div>
             </article>
           </div>
@@ -83,7 +123,7 @@
             <div class="section-head__divider"><i class="fa fa-heart-o"></i></div>
             <p class="section-lead">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
           </header>
-          <div class="work-filter" role="toolbar" aria-label="Фильтр работ">
+          <div class="work-filter" aria-label="Фильтр работ">
             <button type="button" class="work-filter__btn is-active">All</button>
             <button type="button" class="work-filter__btn">Branding</button>
             <button type="button" class="work-filter__btn">Web</button>
@@ -166,74 +206,79 @@
             <div class="section-head__divider"><i class="fa fa-heart-o"></i></div>
             <p class="section-lead">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
           </header>
+
           <div class="team-grid">
-            <article class="team-card">
+            <article class="team-card" itemprop="employee" itemscope itemtype="https://schema.org/Person">
               <figure>
-                <img src="img/team/member-1.png" alt="John Filmr Doe">
+                <img src="img/team/member-1.png" alt="John Filmr Doe" itemprop="image">
                 <figcaption>
                   <h3>Nemo enim ipsam voluptatem quia voluptas</h3>
                   <p>sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.</p>
                   <ul class="team-social">
-                      <li><a href="#" aria-label="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                      <li><a href="#" aria-label="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                      <li><a href="#" aria-label="Google Plus"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                    <li><a href="#" aria-label="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li><a href="#" aria-label="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a href="#" aria-label="Google Plus"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
                   </ul>
                 </figcaption>
               </figure>
-              <h3>John Filmr Doe</h3>
-              <p>Managing Director</p>
+              <h3 itemprop="name">John Filmr Doe</h3>
+              <p itemprop="jobTitle">Managing Director</p>
             </article>
-            <article class="team-card">
+
+            <article class="team-card" itemprop="employee" itemscope itemtype="https://schema.org/Person">
               <figure>
-                <img src="img/team/member-2.jpg" alt="Chystine Hineu">
+                <img src="img/team/member-2.jpg" alt="Chystine Hineu" itemprop="image">
                 <figcaption>
                   <h3>Nemo enim ipsam voluptatem quia voluptas</h3>
                   <p>sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.</p>
                   <ul class="team-social">
-                      <li><a href="#" aria-label="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                      <li><a href="#" aria-label="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                      <li><a href="#" aria-label="Google Plus"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                    <li><a href="#" aria-label="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li><a href="#" aria-label="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a href="#" aria-label="Google Plus"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
                   </ul>
                 </figcaption>
               </figure>
-              <h3>Chystine Hineu</h3>
-              <p>Lead Designer</p>
+              <h3 itemprop="name">Chystine Hineu</h3>
+              <p itemprop="jobTitle">Lead Designer</p>
             </article>
-            <article class="team-card">
+
+            <article class="team-card" itemprop="employee" itemscope itemtype="https://schema.org/Person">
               <figure>
-                <img src="img/team/member-3.png" alt="Martin Matrone">
+                <img src="img/team/member-3.png" alt="Martin Matrone" itemprop="image">
                 <figcaption>
                   <h3>Nemo enim ipsam voluptatem quia voluptas</h3>
                   <p>sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.</p>
                   <ul class="team-social">
-                      <li><a href="#" aria-label="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                      <li><a href="#" aria-label="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                      <li><a href="#" aria-label="Google Plus"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                    <li><a href="#" aria-label="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li><a href="#" aria-label="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a href="#" aria-label="Google Plus"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
                   </ul>
                 </figcaption>
               </figure>
-              <h3>Martin Matrone</h3>
-              <p>Lead Developer</p>
+              <h3 itemprop="name">Martin Matrone</h3>
+              <p itemprop="jobTitle">Lead Developer</p>
             </article>
-            <article class="team-card">
+
+            <article class="team-card" itemprop="employee" itemscope itemtype="https://schema.org/Person">
               <figure>
-                <img src="img/team/member-4.png" alt="Steve Flaulkin">
+                <img src="img/team/member-4.png" alt="Steve Flaulkin" itemprop="image">
                 <figcaption>
                   <h3>Nemo enim ipsam voluptatem quia voluptas</h3>
                   <p>sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.</p>
                   <ul class="team-social">
-                      <li><a href="#" aria-label="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                      <li><a href="#" aria-label="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                      <li><a href="#" aria-label="Google Plus"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                    <li><a href="#" aria-label="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li><a href="#" aria-label="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a href="#" aria-label="Google Plus"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
                   </ul>
                 </figcaption>
               </figure>
-              <h3>Steve Flaulkin</h3>
-              <p>Sr. UI Designer</p>
+              <h3 itemprop="name">Steve Flaulkin</h3>
+              <p itemprop="jobTitle">Sr. UI Designer</p>
             </article>
           </div>
         </div>
       </section>
+
 
       <section id="facts" class="facts">
         <div class="facts__overlay">
@@ -278,12 +323,22 @@
           <div class="contact-layout">
             <article class="contact-info">
               <h3>Cras at ultrices erat, sed vulputate!</h3>
-              <p>2345 Setwant natrer, 1234,</p>
-              <p>Washington. United States.</p>
-              <p>(401) 1234 567</p>
-              <p>hello@brandi.com</p>
-              <p>ww.brandi.com</p>
+
+              <div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+                <p>
+                  <span itemprop="streetAddress">2345 Setwant natrer, 1234</span>
+                </p>
+                <p>
+                  <span itemprop="addressLocality">Washington</span>,
+                  <span itemprop="addressCountry">United States</span>
+                </p>
+              </div>
+
+              <p itemprop="telephone">(401) 1234 567</p>
+              <p><a href="mailto:hello@brandi.com" itemprop="email">hello@brandi.com</a></p>
+              <p><a href="https://brandi.com" itemprop="url">www.brandi.com</a></p>
             </article>
+
             <article class="contact-form">
               <h3>Say hello!</h3>
               <form>
@@ -384,3 +439,4 @@
     </footer>
   </body>
 </html>
+
